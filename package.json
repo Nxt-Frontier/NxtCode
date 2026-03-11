@@ -1,0 +1,22 @@
+{
+  "name": "nxtcode",
+  "version": "1.0.0",
+  "description": "Engineering structure into AI-generated code",
+  "main": "dist/index.js",
+  "bin": {
+    "nxtcode": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.4"
+  }
+}
